@@ -2,7 +2,8 @@
 
 ### Descripción del Proyecto / Introducción:
 
-El proyecto consiste en una aplicación dedicada al manejo de las finanzas de las personas con el objetivo de ayudar en su control de gastos e ingresos.
+Esta aplicación móvil tiene como objetivo ayudar a los usuarios a tomar el control de sus finanzas de manera sencilla e intuitiva. Al ofrecer una herramienta de gestión financiera, la app busca empoderar a los usuarios para alcanzar sus metas financieras a largo plazo y tener un control preciso de sus gastos e ingresos.
+
 
 
 ### Objetivos / Justificación:
@@ -23,11 +24,21 @@ Es un sistema capaz de realizar cálculos, balances y análisis estadísticos a 
 
 ### Requisitos:
 
-- Sistema operativo Android Adreno 618  o superior o IOS 16.0 o superior.
-- Almacenamiento disponible de 150 MB.
-- Al menos 2GB de RAM.
-- Permisos para acceder al almacenamiento del dispositivo.
-- Correo electrónico.
+#### Requisitos Funcionales:
+- Registrar ingresos y gastos con la posibilidad de categorizarlos
+- Editar y eliminar transacciones.
+- Generar informes sobre ingresos y gastos.
+- Visualizar el historial financiero en gráficos y tablas.
+
+#### Requisitos No Funcionales:
+- La aplicación debe ser rápida y fluida.
+- Los informes y gráficos deben generarse rápidamente.
+- La aplicación debe proteger los datos financieros del usuario.
+- La aplicación debe ser fácil de usar e intuitiva.
+- La aplicación debe ser atractiva y moderna.
+- La aplicación debe ser confiable y funcionar sin errores.
+- La aplicación debe actualizarse periódicamente con nuevas funciones y correcciones de errores.
+- La aplicación debe ser fácil de mantener y actualizar.
 
 ### Caso de Estudio / Propuesta de solución: 
 
@@ -52,9 +63,10 @@ Una importante cantidad de personas busca gestionar sus finanzas personales de m
 
 #### Para llevar a cabo el proyecto se utilizaran las siguientes tecnologías:
 
-- **Figma**: Utilizaremos Figma para diseñar la interfaz de usuario (UI) de la aplicación. Figma es una herramienta de diseño colaborativo que permite crear prototipos y diseños de aplicaciones de manera eficiente.
-- **Python**: Utilizaremos Python como lenguaje de programación principal para desarrollar la lógica de la aplicación. Python es ampliamente utilizado en finanzas debido a su ecosistema sólido y su capacidad para realizar análisis cuantitativos y cualitativos.
-- **MySQL**: Utilizaremos MySQL como base de datos para almacenar la información financiera de los usuarios. MySQL es una base de datos relacional confiable y escalable. Se utilizará la PhpMyAdmin para administrar esta base de datos.
+- **HTML**: Utilizaremos este lenguaje de marcado para estructurar y desplegar la app. 
+- **CSS**: Se utilizará para dar estilo a la app.
+- **JavaScript**: Utilizaremos JavaScript como lenguaje de programación principal para desarrollar la lógica de la aplicación. JavaScript es ampliamente utilizado en finanzas debido a su ecosistema sólido y su capacidad para realizar análisis cuantitativos y cualitativos.
+- **Website 2 apk builder pro**: Esta aplicación nos permite crear una aplicación para dispositivos móviles  desde HTML.
 
 #### FIN
 
