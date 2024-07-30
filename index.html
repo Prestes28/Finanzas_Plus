@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas Personales</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Finanzas Personales</h1>
+        <div class="form-group">
+            <label for="type">Tipo</label>
+            <select id="type">
+                <option value="income">Ingreso</option>
+                <option value="expense">Gasto</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="amount">Monto</label>
+            <input type="number" id="amount" placeholder="Ingresa el monto">
+        </div>
+        <div class="form-group">
+            <label for="description">Descripción</label>
+            <input type="text" id="description" placeholder="Ingresa una descripción">
+        </div>
+        <button onclick="addTransaction()">Agregar</button>
+        <h2>Balance: $<span id="balance">0</span></h2>
+        <div class="transactions-container">
+            <ul id="transactions"></ul>
+        </div>
+        <button id="save-btn" onclick="saveToPDF()">Guardar</button>
+        <button id="delete-all-btn" onclick="deleteAll()">Eliminar todo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
